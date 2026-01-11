@@ -98,6 +98,26 @@ python demo.py
 python backtest_demo.py
 ```
 
+## 推荐MCP
+
+```json
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "D:\\Applications\\node\\npx.cmd",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem@latest", "D:\\Projects\\github\\quant-hikyuu"]
+    },
+    "run_python": {
+      "command": "C:\\Users\\WINDOWS\\.cursor\\run_mcp_python.bat"
+    },
+    "ripgrep": {
+      "command": "D:\\Applications\\node\\npx.cmd",
+      "args": ["-y", "mcp-ripgrep@latest"]
+    }
+  }
+}
+```
+
 ## 相关资源
 
 - [Hikyuu 官方文档](https://hikyuu.readthedocs.io/)
